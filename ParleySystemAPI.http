@@ -1,0 +1,11 @@
+@ParleySystemAPI_HostAddress = http://localhost:5135
+
+GET {{ParleySystemAPI_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{ParleySystemAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
